@@ -1,4 +1,3 @@
-"use strict";
 var Test = /** @class */ (function () {
     function Test(msg) {
         this.msg = msg;
@@ -11,5 +10,4 @@ var Test = /** @class */ (function () {
     };
     return Test;
 }());
-var test = new Test("this is a test");
-test.log();
+export { Test };

@@ -1,4 +1,4 @@
-class Test {
+export class Test {
     private msg: string;
     constructor(msg: string) {
         this.msg = msg;
@@ -12,6 +12,3 @@ class Test {
         console.log(this.msg);
     }
 }
-
-const test = new Test("this is a test");
-test.log();
